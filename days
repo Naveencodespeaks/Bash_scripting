@@ -1,0 +1,18 @@
+#!/bin/bash
+
+echo "Enter a day."
+
+read days
+
+case $days in
+	Monday | Tuesday | Wednesday | Thrusday | firday)
+		echo "It is a weekday"
+		;;
+	Saturday | sunday)
+		echo "It is a weekend."
+		;;
+	*)
+		echo "Invalid day of the week."
+		;;
+esac
+
